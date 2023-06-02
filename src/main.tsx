@@ -5,9 +5,9 @@ import { BrowserRouter } from "react-router-dom";
 import { ChakraProvider } from "@chakra-ui/react";
 
 ReactDOM.createRoot(document.getElementById("root") as HTMLElement).render(
-  <BrowserRouter>
-    <ChakraProvider>
+  <ChakraProvider>
+    <BrowserRouter>
       <App />
-    </ChakraProvider>
-  </BrowserRouter>
+    </BrowserRouter>
+  </ChakraProvider>
 );
